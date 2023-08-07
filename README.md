@@ -10,6 +10,8 @@ git init
 
 git add .
 
-git commit -m "first commit"
+git commit -m "add new branch"
 
 git checkout -b develop
+
+git push origin develop

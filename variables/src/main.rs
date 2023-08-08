@@ -10,7 +10,7 @@ fn main() {
     println!("The value of x is: {x}");
 
     // Constants
-    const THREE_HOURS_IN_SECONDS: u32 = 60 * 60 * 3;
+    // const THREE_HOURS_IN_SECONDS: u32 = 60 * 60 * 3;
 
     // Shadowing
     let x = 5;
@@ -20,4 +20,12 @@ fn main() {
         println!("The value of x in the inner scope is: {x}");
     }
     println!("The value of x is: {x}");
+
+    // Success
+    // let spaces = "   ";
+    // let spaces = spaces.len();
+
+    // Error
+    // let mut spaces = "   ";
+    // spaces = spaces.len();
 }
